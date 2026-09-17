@@ -1,0 +1,89 @@
+Format:
+HanPhon = X-SAMPA = Pinyin sound
+
+Initials:
+
+b = p = b
+p = p_h = p
+m = m = m
+f = f = f
+
+d = t = d
+t = t_h = t
+n = n = n
+l = l = l
+
+g = k = g
+k = k_h = k
+h = x = h
+
+j = tS = j
+q = tS_h = q
+x = s\ = x
+
+zh = ts` = zh
+ch = ts`_h = ch
+sh = s` = sh
+r = z` = r
+
+z = ts = z
+c = ts_h = c
+s = s = s
+
+Vowels
+
+a = a = a
+o = o = o
+e = @ = e
+i = i = i
+u = u = u
+Y = y = ü
+er = 3` = er
+
+if = i` = i (zi, ci, si)
+ir = i\ = i (zhi, chi, shi, ri)
+
+
+Diphthongs
+
+ay = ai = ai
+ey = ei = ei
+aw = au = ao
+ow = ou = ou
+
+ia = ia = ia
+ie = ie = ie
+ua = ua = ua
+uo = uo = uo
+
+Ye = ye = üe
+
+iaw = iau = iao
+iu = iou = iu
+uay = uai = uai
+uey = ui = ui
+
+
+Nasal Finals
+
+an = an = an
+en = @n = en
+in = in = in
+ian = ian = ian
+
+uan = uan = uan
+un = un = un
+Yn = yn = ün
+Yan = yan = üan
+
+
+Nasal Finals
+
+ang = aN = ang
+eng = @N = eng
+ing = iN = ing
+iang = iaN = iang
+
+uang = uaN = uang
+ong = UN = ong
+iong = iUN = iong

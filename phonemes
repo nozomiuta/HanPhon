@@ -1,6 +1,3 @@
-# HanPhon — Mandarin Phoneme Set
-
-# Initials
 b
 p
 m
@@ -22,8 +19,6 @@ r
 z
 c
 s
-
-# Vowels
 a
 o
 e
@@ -33,8 +28,6 @@ Y
 er
 if
 ir
-
-# Diphthongs
 ay
 ey
 aw
@@ -48,8 +41,6 @@ iaw
 iu
 uay
 uey
-
-# Nasal Finals
 an
 en
 in
@@ -58,8 +49,6 @@ uan
 un
 Yn
 Yan
-
-# Nasal Vowels / Finals
 ang
 eng
 ing
@@ -67,3 +56,6 @@ iang
 uang
 ong
 iong
+
+
+Tone Flags = 1,2,3,4

@@ -1,20 +1,21 @@
 # HanPhon
 
-**HanPhon** is a simple, human readable phoneme notation for **Mandarin Chinese**.
+**HanPhon** is a simple, human-readable phoneme notation for **Mandarin Chinese**
 
-It is designed to represent Mandarin pronunciation as clearly as possible with an easy way to read
+It is designed to make Mandarin phonemes easy to read and use while still providing **X-SAMPA equivalents** for compatibility and reference
 
 ## Features
 
 * Simple and readable phoneme names
 * Based on standard Mandarin pronunciation and Pinyin
-* Includes Mandarin initials, vowels, diphthongs, and nasal finals
-* Provides X-SAMPA equivalents for compatibility and reference
+* Mandarin initials, vowels, diphthongs, and nasal finals
+* Separate notation for the two Mandarin `i` sounds
+* X-SAMPA equivalents for reference
 * Suitable for speech synthesis, singing synthesis, phonology, and other projects
 
-## Phoneme Format
+## Format
 
-Each HanPhon phoneme comparsion is documented as:
+Phoneme comparisons are written as:
 
 ```text
 HanPhon = X-SAMPA = Pinyin
@@ -34,42 +35,92 @@ ch = ts`_h = ch
 sh = s` = sh
 ```
 
-The **HanPhon name** is intended to be the easiest part to read and use. X-SAMPA is provided as a technical reference rather than being required knowledge
-
 ## Phoneme Set
 
-HanPhon currently contains **58 phonemes**:
+The current HanPhon inventory contains Mandarin initials, vowels, diphthongs, nasal finals, and tone entries.
 
-* 21 initials
-* 37 finals and vowel units
+The phoneme list is available in [`phonemes`](phonemes).
 
-The inventory includes:
+### Initials
 
-* Initial consonants
-* Basic vowels
-* The two Mandarin `i` vowels
-* Diphthongs
-* Nasal finals
-* `ü`-based finals
-* `er`
+```text
+b p m f
+d t n l
+g k h
+j q x
+zh ch sh r
+z c s
+y w
+```
+
+### Vowels
+
+```text
+a o e i u Y
+er
+if ir
+```
+
+### Diphthongs and vowel combinations
+
+```text
+ay ey aw ow
+ia ie ua uo Ye
+iaw iu uay uey
+```
+
+### Nasal finals
+
+```text
+an en in ian
+uan un Yn Yan
+
+ang eng ing iang
+uang ong iong
+```
+
+### Tone entries
+
+The current phoneme list also contains:
+
+```text
+1 (tone)
+2 (tone)
+3 (tone)
+4 (tone)
+```
+
+These are listed separately from the segmental phonemes.
 
 ## The Two Mandarin "i" Sounds
 
-Mandarin has two distinct vowel sounds commonly represented by `i` in Pinyin:
+Mandarin has two distinct vowel sounds commonly represented by `i` in Pinyin.
+
+HanPhon represents them separately:
 
 ```text
 if = i` = i (zi, ci, si)
 ir = i\ = i (zhi, chi, shi, ri)
 ```
 
-HanPhon gives them separate names so they can be represented unambiguously.
+This avoids treating both sounds as the same phoneme.
 
-## Why HanPhon?
+## X-SAMPA
 
-X-SAMPA is powerful and useful, but its notation can be difficult to read for people who are not already familiar with phonetic transcription.
+X-SAMPA is included as a technical reference for users who need a standardized phonetic notation.
 
-HanPhon keeps the phoneme names simple while still providing X-SAMPA equivalents when a more technical representation is needed.
+HanPhon itself is intended to be easier to read:
+
+```text
+HanPhon:  zh
+X-SAMPA:  ts`
+Pinyin:   zh
+```
+
+The complete comparison table is available in [`comparisions`](comparisions).
 
 ## License
 
-See [LICENSE](LICENSE) for the license of this project.
+This project is licensed under **CC0 1.0 Universal**.
+
+See [`LICENSE`](LICENSE) for details.
